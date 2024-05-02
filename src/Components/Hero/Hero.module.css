@@ -1,0 +1,71 @@
+.hero {
+    background: linear-gradient(to right, #c943e4, #FF69B4, #5d38e0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContainer {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+   
+}
+
+.inputemail {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    >div {
+       width: 49%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.inputTop {
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputMesaj {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBtn {
+    text-align: center;
+
+    button {
+        width: 100px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 100px;
+        border: none;
+        background-color: rgb(133, 11, 48);
+        color: white;
+        font-weight: 600;
+    }
+}
+
+ textarea{
+    border-radius: 10px;
+}
+input{
+    border-radius: 100px;
+    height: 25px;
+    border: none;
+}
